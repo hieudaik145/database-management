@@ -1,8 +1,11 @@
 package vn.tcx.dw.database;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class App {
 
     public static void main(String[] args) {
-        System.out.print("Hello world!");
+        log.debug("aa");
     }
 }

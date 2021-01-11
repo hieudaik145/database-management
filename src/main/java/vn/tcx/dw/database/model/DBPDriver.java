@@ -1,5 +1,7 @@
 package vn.tcx.dw.database.model;
 
+import java.util.Map;
+
 import lombok.Data;
 
 /**
@@ -12,6 +14,16 @@ import lombok.Data;
 @Data
 public class DBPDriver {
 
+    private String id;
+
     private String driverClassName;
+
+    private int majorVersion;
+
+    private String sampleURL;
+
+    private String defaultPort;
+
+    private Map<String, Object> connectionProperties;
 
 }
